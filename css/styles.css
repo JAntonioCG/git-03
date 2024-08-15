@@ -178,3 +178,35 @@ body {
 	margin: 0;
 	text-align: center;
 }
+
+@media (main-width: 768px) {
+	.navbar {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.navbar-brand {
+		flex-direction: row;
+		margin-bottom: 0;
+	}
+	.tienda {
+		display: flex;
+		gap: 1em;
+	}/*
+	.nosotros {
+		flex-direction: row;
+	}
+	.nosotros-col-img {
+		order: 1;
+		flex: 1 1 0;
+	}
+	.nosotros-col-text {
+		order: 2;
+		flex: 1 1 0;
+	}*/
+}
+
+@media (min-width: 576px) {
+	.nosotros-col-img {
+		height: 500px;
+	}
+}
